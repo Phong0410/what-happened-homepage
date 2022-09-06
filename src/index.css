@@ -1,13 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR:wght@300;500&display=swap");
+
+/* Montserrat font-face */
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBoldItalic";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-ExtraBoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-Bold.ttf")
+    format("truetype");
+}
+
+/* Noto Sans KR font-face */
+@font-face {
+  font-family: "Noto Sans KR-Light";
+  src: url("./assets/fonts/Noto_Sans_KR/NotoSansKR-Light.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR-Regular";
+  src: url("./assets/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR-Medium";
+  src: url("./assets/fonts/Noto_Sans_KR/NotoSansKR-Medium.otf")
+    format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@layer utilities {
+  .text-style-19 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 171.5px;
+    text-align: center;
+    line-height: 177px;
+  }
+  .text-style-13 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 171.5px;
+    text-align: center;
+    line-height: 177px;
+  }
+  .text-style-4 {
+    font-family: "Noto Sans KR", "Noto Sans KR-Regular", sans-serif;
+    font-size: 64px;
+    line-height: 48px;
+  }
+  .text-style-21 {
+    font-family: "Montserrat-ExtraBoldItalic", sans-serif;
+    font-style: italic;
+    font-size: 59px;
+    line-height: 516px;
+  }
+  .text-style-25 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 55px;
+    text-align: center;
+    line-height: 57px;
+  }
+  .text-style-32 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 5px;
+  }
+  .text-style-12 {
+    font-family: "Montserrat-ExtraBoldItalic", sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .text-style-5 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 5px;
+  }
+  .text-style-3 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 4.5px;
+  }
+  .text-style-23 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 4.5px;
+  }
+  .text-style-2 {
+    font-family: "Noto Sans KR", "Noto Sans KR-Medium", sans-serif;
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .text-style-17 {
+    font-family: "Montserrat-Extrabold", sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .text-style-24 {
+    font-family: "Montserrat-Extrabold", sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .text-style-22 {
+    font-family: "Montserrat-Extrabold", sans-serif;
+    font-size: 25px;
+    line-height: 60px;
+  }
+  .text-style {
+    font-family: "Montserrat-Extrabold", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .text-style-20 {
+    font-family: "Montserrat-Extrabold", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .text-style-28 {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 20px;
+    line-height: 47px;
+  }
+  .text-style-16 {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+  }
+  .text-style-6 {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .text-style-14 {
+    font-family: "Montserrat-Semibold", sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .text-style-29 {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .text-style-18 {
+    font-family: "Noto Sans KR-Light", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text-style-7 {
+    font-family: "Noto Sans KR-Light", sans-serif;
+    font-size: 17.5px;
+    text-align: right;
+    line-height: 28.5px;
+  }
+  .text-style-20 {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .text-style-8 {
+    font-family: "Noto Sans KR-Light", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .text-style-10 {
+    font-family: "Noto Sans KR-Light", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text-style-9 {
+    font-family: "Noto Sans KR-Light", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text-style-15 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text-style-31 {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 29px;
+  }
+  .text-style-27 {
+    font-family: "Noto Sans KR-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .text-style-26 {
+    font-family: "Noto Sans KR-Light", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .text-style-26 {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
