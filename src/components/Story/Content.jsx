@@ -5,9 +5,9 @@ import SeeMoreButton from "../SeeMoreButton";
 
 const Content = () => {
   return (
-    <div className="relative max-w-fit mx-auto mt-20 flex z-50">
+    <div className="relative max-w-fit mx-auto mt-20 flex flex-col z-50 xl:flex-row">
       <CImage src={colaboration} />
-      <div className="max-w-2xl bg-white border-blackTwo border-t-4 border-r-4 border-b-4 p-4">
+      <div className="max-w-2xl bg-white border-blackTwo border-4 p-4">
         <h3 className="text-style-22 mt-4">WHAT HAPPENDED'S BRAND STORY</h3>
         <p className="text-style-8 max-w-lg mt-3">
           청춘이 있는 바이며, 말이다. 같지 노년에게서 어디 모래뿐일 무엇을 풀이

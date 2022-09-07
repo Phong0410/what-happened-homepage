@@ -4,7 +4,7 @@ import producticonBg from "../../assets/pngs/producticon-bg.png";
 
 const BestItem = ({ src, no }) => {
   return (
-    <div className="relative">
+    <div className="relative w-fit mx-auto">
       <CImage src={src} />
       <div className="absolute top-0 left-0 w-2/12 -translate-y-1/2">
         <CImage src={producticonBg} />
@@ -16,9 +16,9 @@ const BestItem = ({ src, no }) => {
         <p className="text-style text-blackThree w-48">
           How to create mobile-optimized
         </p>
-        <div className="bg-black text-white text-style flex justify-center items-center rounded-full w-16 h-16 cursor-pointer">
+        <button className="bg-blackThree hover:bg-cerulean text-white text-style flex justify-center items-center rounded-full w-16 h-16 cursor-pointer">
           GO
-        </div>
+        </button>
       </div>
     </div>
   );

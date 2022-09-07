@@ -11,7 +11,7 @@ module.exports = {
         kelleyGreen: "#00833F",
         lavender: "#C6B8F5",
         darkBrown: "#110E03",
-        brightOrangeTwo: "#0565BB",
+        brightOrangeTwo: "#FF5500",
         mango: "#FFB225",
         tomatoTwo: "#E84C33",
         bluish: "#2584B3",
@@ -40,6 +40,17 @@ module.exports = {
         blackTwo: "#111111",
         white: "#FFFFFF",
         brightOrange: "#F96400",
+      },
+      maxWidth: {
+        xxl: "1920px",
+      },
+      width: {
+        xxl: "1920px",
+      },
+      screens: {
+        xxs: "320px",
+        xs: "480px",
+        xxl: "1920px",
       },
     },
   },

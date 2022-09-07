@@ -20,17 +20,35 @@ const Story = () => {
           걸음을 내딛어보세요. 비디오를 단 몇 분 만에 제작해보세요.
         </p>
         <Content />
-        <CImage src={object01} className="absolute top-20 left-52" />
-        <CImage src={object02} className="absolute -top-20 right-64" />
-        <CImage src={object03} className="absolute -top-12 right-44" />
+        <CImage
+          src={object01}
+          className="absolute top-20 left-52 hidden 2xl:block"
+        />
+        <CImage
+          src={object02}
+          className="absolute -top-20 right-64 hidden 2xl:block"
+        />
+        <CImage
+          src={object03}
+          className="absolute -top-12 right-44 hidden 2xl:block"
+        />
         <CImage
           src={object04}
-          className="absolute top-1/4 right-0 translate-x-1/4"
+          className="absolute top-1/4 right-0 translate-x-1/4 hidden 2xl:block"
         />
-        <CImage src={object05} className="absolute bottom-2 right-0" />
-        <div className="w-36 h-1 bg-blackTwo absolute bottom-12 left-48"></div>
-        <CImage src={object06} className="absolute bottom-8 left-0" />
-        <CImage src={object07} className="absolute bottom-8 left-48" />
+        <CImage
+          src={object05}
+          className="absolute bottom-2 right-0 hidden 2xl:block"
+        />
+        <div className="w-36 h-1 bg-blackTwo absolute bottom-12 left-48 hidden 2xl:block"></div>
+        <CImage
+          src={object06}
+          className="absolute bottom-8 left-0 hidden 2xl:block"
+        />
+        <CImage
+          src={object07}
+          className="absolute bottom-8 left-48 hidden 2xl:block"
+        />
       </div>
     </CContainer>
   );

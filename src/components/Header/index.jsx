@@ -7,7 +7,7 @@ import logo from "../../assets/pngs/logo.png";
 
 const Header = () => {
   return (
-    <CContainer fluid className="h-20 flex items-center justify-between px-5">
+    <CContainer className=" sm:h-20 h-12 flex items-center justify-between sm:px-5 xxl:max-w-xxl 2xl:max-w-screen-2xl xl:max-w-screen-xl">
       <div>
         <img src={logo} alt="logo" />
       </div>
