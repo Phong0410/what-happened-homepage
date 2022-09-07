@@ -1,7 +1,6 @@
-import { CImage } from "@coreui/bootstrap-react";
 import React from "react";
 
-import introductionBg from "../../assets/pngs/introduction-bg.png";
+import introductionBg from "../../../assets/pngs/introduction-bg.png";
 
 const Introduction = () => {
   return (

@@ -1,7 +1,7 @@
 import { CImage } from "@coreui/bootstrap-react";
 import React from "react";
-import colaboration from "../../assets/pngs/colaboration.png";
-import SeeMoreButton from "../SeeMoreButton";
+import colaboration from "../../../assets/pngs/colaboration.png";
+import SeeMoreButton from "../../../components/SeeMoreButton";
 
 const Content = () => {
   return (

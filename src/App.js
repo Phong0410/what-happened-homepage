@@ -1,5 +1,4 @@
 import React from "react";
-import { CContainer } from "@coreui/bootstrap-react";
 
 import Home from "./pages/Home";
 

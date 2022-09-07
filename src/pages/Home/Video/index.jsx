@@ -1,17 +1,17 @@
 import { CContainer, CImage } from "@coreui/bootstrap-react";
 import React from "react";
-import SeeMoreButton from "../SeeMoreButton";
+import SeeMoreButton from "../../../components/SeeMoreButton";
 
-import video from "../../assets/pngs/video.png";
-import videoObject01 from "../../assets/pngs/video-object-01.png";
-import videoObject02 from "../../assets/pngs/video-object-02.png";
-import videoObject03 from "../../assets/pngs/video-object-03.png";
-import videoObject04 from "../../assets/pngs/video-object-04.png";
-import videoObject05 from "../../assets/pngs/video-object-05.png";
-import videoObject06 from "../../assets/pngs/video-object-06.png";
-import videoObject07 from "../../assets/pngs/video-object-07.png";
-import videoObject08 from "../../assets/pngs/video-object-08.png";
-import videoObject09 from "../../assets/pngs/video-object-09.png";
+import video from "../../../assets/pngs/video.png";
+import videoObject01 from "../../../assets/pngs/video-object-01.png";
+import videoObject02 from "../../../assets/pngs/video-object-02.png";
+import videoObject03 from "../../../assets/pngs/video-object-03.png";
+import videoObject04 from "../../../assets/pngs/video-object-04.png";
+import videoObject05 from "../../../assets/pngs/video-object-05.png";
+import videoObject06 from "../../../assets/pngs/video-object-06.png";
+import videoObject07 from "../../../assets/pngs/video-object-07.png";
+import videoObject08 from "../../../assets/pngs/video-object-08.png";
+import videoObject09 from "../../../assets/pngs/video-object-09.png";
 
 const Video = () => {
   return (

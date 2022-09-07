@@ -1,7 +1,6 @@
 import React from "react";
-import { CImage } from "@coreui/bootstrap-react";
 
-import bestbg from "../../assets/pngs/bes-bg.png";
+import bestbg from "../../../assets/pngs/bes-bg.png";
 import BestList from "./BestList";
 
 const Best = () => {

@@ -1,10 +1,10 @@
 import { CContainer, CImage } from "@coreui/bootstrap-react";
 import React from "react";
-import SeeMoreButton from "../SeeMoreButton";
+import SeeMoreButton from "../../../components/SeeMoreButton";
 import Brands from "./Brands";
 
-import newsObject03_2 from "../../assets/pngs/news-object-03_2.png";
-import newsObject02 from "../../assets/pngs/news-object-02.png";
+import newsObject03_2 from "../../../assets/pngs/news-object-03_2.png";
+import newsObject02 from "../../../assets/pngs/news-object-02.png";
 
 const Issue = () => {
   return (

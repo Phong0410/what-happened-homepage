@@ -1,4 +1,4 @@
-import { CCol, CContainer, CImage, CRow } from "@coreui/bootstrap-react";
+import { CCol, CContainer, CRow } from "@coreui/bootstrap-react";
 import React from "react";
 
 import snsIcon01 from "../../assets/pngs/snsicon-01.png";

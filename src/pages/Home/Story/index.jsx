@@ -1,13 +1,13 @@
 import { CContainer, CImage } from "@coreui/bootstrap-react";
 import React from "react";
 import Content from "./Content";
-import object01 from "../../assets/pngs/object-01.png";
-import object02 from "../../assets/pngs/object-02.png";
-import object03 from "../../assets/pngs/object-03.png";
-import object04 from "../../assets/pngs/object-04.png";
-import object05 from "../../assets/pngs/object-05.png";
-import object06 from "../../assets/pngs/object-06.png";
-import object07 from "../../assets/pngs/object-07.png";
+import object01 from "../../../assets/pngs/object-01.png";
+import object02 from "../../../assets/pngs/object-02.png";
+import object03 from "../../../assets/pngs/object-03.png";
+import object04 from "../../../assets/pngs/object-04.png";
+import object05 from "../../../assets/pngs/object-05.png";
+import object06 from "../../../assets/pngs/object-06.png";
+import object07 from "../../../assets/pngs/object-07.png";
 
 const Story = () => {
   return (

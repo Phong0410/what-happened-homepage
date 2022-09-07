@@ -1,13 +1,13 @@
 import { CCol, CContainer, CImage, CRow } from "@coreui/bootstrap-react";
 import React from "react";
 
-import newsImg01 from "../../assets/pngs/news-img-01.png";
-import newsImg03 from "../../assets/pngs/news-img-03.png";
-import newsImg04 from "../../assets/pngs/news-img-04.png";
-import newsImg05 from "../../assets/pngs/news-img-05.png";
-import newsObject04 from "../../assets/pngs/news-object-04.png";
-import newsObject03 from "../../assets/pngs/news-object-03.png";
-import newsObject05 from "../../assets/pngs/news-object-05.png";
+import newsImg01 from "../../../assets/pngs/news-img-01.png";
+import newsImg03 from "../../../assets/pngs/news-img-03.png";
+import newsImg04 from "../../../assets/pngs/news-img-04.png";
+import newsImg05 from "../../../assets/pngs/news-img-05.png";
+import newsObject04 from "../../../assets/pngs/news-object-04.png";
+import newsObject03 from "../../../assets/pngs/news-object-03.png";
+import newsObject05 from "../../../assets/pngs/news-object-05.png";
 
 const Brands = () => {
   return (

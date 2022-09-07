@@ -1,6 +1,6 @@
 import { CCol, CImage } from "@coreui/bootstrap-react";
 import React from "react";
-import heartIcon from "../../assets/pngs/hearticon.png";
+import heartIcon from "../../../assets/pngs/hearticon.png";
 
 const numberFormat = new Intl.NumberFormat();
 

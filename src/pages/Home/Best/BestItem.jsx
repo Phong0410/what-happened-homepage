@@ -1,6 +1,6 @@
 import { CImage } from "@coreui/bootstrap-react";
 import React from "react";
-import producticonBg from "../../assets/pngs/producticon-bg.png";
+import producticonBg from "../../../assets/pngs/producticon-bg.png";
 
 const BestItem = ({ src, no }) => {
   return (

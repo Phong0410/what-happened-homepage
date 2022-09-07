@@ -2,13 +2,13 @@ import React from "react";
 import { CContainer } from "@coreui/bootstrap-react";
 
 import Header from "../../components/Header";
-import MainBanner from "../../components/MainBanner";
-import Introduction from "../../components/Introduction";
-import Best from "../../components/Best";
-import Products from "../../components/Products";
-import Story from "../../components/Story";
-import Issue from "../../components/Issue";
-import Video from "../../components/Video";
+import MainBanner from "./MainBanner";
+import Introduction from "./Introduction";
+import Best from "./Best";
+import Products from "./Products";
+import Story from "./Story";
+import Issue from "./Issue";
+import Video from "./Video";
 import Footer from "../../components/Footer";
 
 const Home = () => {

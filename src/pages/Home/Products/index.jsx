@@ -1,7 +1,7 @@
 import React from "react";
 import { CContainer, CRow } from "@coreui/bootstrap-react";
 import ProductItem from "./ProductItem";
-import SeeMoreButton from "../SeeMoreButton";
+import SeeMoreButton from "../../../components/SeeMoreButton";
 
 import { imgs } from "./productImgs";
 
